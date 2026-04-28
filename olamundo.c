@@ -4,6 +4,6 @@ int main () {
 printf ("ola, mundo!\n");
 
 
-  return0
+  return0;
     
 }
