@@ -1,1 +1,18 @@
+#include <stdio.h>
 
+int main()
+{
+    char pais[30];
+    int populacao;
+
+    printf("Digite o pais: ");
+    scanf("%s", pais);
+
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao);
+
+    printf("Pais: %s\n", pais);
+    printf("Populacao: %d\n", populacao);
+
+    return 0;
+}
